@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <style>
+  body {
+   margin: 0;
+   overflow: hidden;
+   height: 100vh;
+  }
+  .text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+    font-syle: italic;
+    animation: mov 5s ease-in-out infinte;
+  }
+  @keyframes mov {
+   0% {
+    top:0;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+    font-syle: italic;
+    color: black;
+   }
+   50% {
+    top: 50%;
+    font-size: 20px;
+    font-family: 'Georgia',serif;
+    font-style: normal;
+    color: blue;
+   }
+  100% {
+    top:100vh;
+    font-size: 28px;
+    font-family: 'Times New Roman', serif;
+    font-syle: bold;
+    color: green;
+   }
+ }
+ </style>
+</head>
+<body>
+ <div class="text">VIT Chennai</div>
+</body>
+</html>
